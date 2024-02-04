@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Working on a behaviour pack with plugins",
+        "name": "Plugins !",
+        "uuid": "1a2f42bd-98d4-4e0d-8e3f-934ab8b2c05e",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Script that implements basic starter tests.",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "1a1b53fc-5653-4a75-91b7-9ccF627674ae",
+            "version": [
+                0,
+                0,
+                1
+            ],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.8.0-beta"
+        }
+    ],
+    "capabilities": [
+        "script_eval"
+    ]
+}
